@@ -8,41 +8,186 @@
     <title>MI PROYECTO</title>
 </head>
 <body>
-    <main>
+    <!--inicio del menu-->
+    <nav id="navbar-example2" class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">Bienvenidos!!</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#acerca de mi">@acerca de mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cursos">@cursos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">menu</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#Coursera">Coursera</a>
+              <a class="dropdown-item" href="#Cisco">Cisco</a>
+              <div role="separator" class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#Slim">Slim</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+        <h4 id="acerca de mi ">@acerca de mi </h4>
+        <p>Soy una persona autodidacta,amable,solidaria,responsable y con muchas ganas de ampliar 
+            conocimientos y adquirir nuevos!!
+        </p>
+        <br>
+
+        <h4 id="cursos">@cursos</h4>
+        <p>Realize muchos cursos, el primero fue testing de software en Proyecto nahual it ,luego desarrollo web 1 
+            en aprender programando virtual 3.o del gobierno de la ciudad,etc.
+        </p>
+        <br>
+
+        <h4 id="Coursera">Coursera</h4>
+        <p>Realize un curso de introduccion a la programacion con python 
+            donde aprendi las bases de programar con este lenguaje.</p>
+        <br>
+
+        <h4 id="Cisco">Cisco</h4>
+        <p>Realize un curso de introduccion a la ciberseguridad lo super recomiendo, muy interesante,creo que es algo
+            que tambien me gustaria poder seguir aprendiendo paralelamente!!
+        </p>
+        <br>
+
+        <h4 id="Slim">Slim</h4>
+        <p>Aca realize 3 cursos ,uno de desarrollador backend,frontend y tester realmente los aconsejo son mas teoricos que practicos 
+            pero estan muy buenos al menos a mi me resultaron para seguir reforzando conceptos y conocimientos.
+        </p>
+        <br>
+
+        <main>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3 col-md-4 text-center">
+                            <img src="img/carlosslim.jpeg - Acceso directo.lnk" alt="CarlosSlim">
+                            <h5>Certificado de desarrollador backend</h5>
+                            <p>cccccccc</p>
+                        </div>
+
+                        <div class="col-3 col-md-4 text-center">
+                            <img src="img/coursera.jpeg - Acceso directo (2).lnk" alt="Coursera">
+                            <h5>Certificado de introduccion a la programacion con python</h5>
+                            <p>cccccccc</p>
+                        </div>
+
+                        <div class="col-3 col-md-4 text-center">
+                            <img src="img/cisco.jpeg - Acceso directo.lnk" alt="Cisco">
+                            <h5>introduccion a la ciberseguridad</h5>
+                            <p>cccccccc</p>
+                        </div>
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+            </section>
+        </main>
+
+      </div>
+             <!--inicio del carousel-->
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/boostrap.jpg" class="d-block w-100" alt="boostrap">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>boostrap</h5>
+              <p>es un framework,que permite crear interfaces web con CSS y JavaScript.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/cssyhtml.png" class="d-block w-100" alt="cssyhtml">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>css y html</h5>
+              <p>HTML es un lenguaje muy simple que sirve para crear páginas web
+                   y CSS  aporta estilos a lo que se quiere mostrar.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/js.png" class="d-block w-100" alt="javascript">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>javascript</h5>
+              <p>es el único lenguaje de programación que funciona en los navegadores de forma nativa .</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!--fin del carousel-->
+
+    <div class="container-fluid">
+    
         
        <h1>"Bienvenidos a mi primer pagina personal"</h1>
-       <h2>Mi nombre es</h2>
-       <p>Natalia Soledad Villafañe</p>
-    </main>
-       <header>
-               <h2>Acerca de mi</h2>
+      
+    </div>
+
+
+    <div class="container-fluid">
+        
+               
                <p>soy estudiante en IT, hace unos años atras ,gane una beca en la UTN para poder aprender a programar en 
              Java y por cuestiones personales no pude terminar!!y la vida misma me llevo por otros caminos hasta
             que en el año 2018 luego de ver la pelicula de Stev Jobs!!me desperto esas ganas de intentar y tomar 
             revancha a esa posibilidad que perdi y poder retomar algo que me apasionaba y lo llevaba dormido, el mundo 
             de sistemas!!y fui por mas termine la secundaria(adeudaba materias de 5 to año)e  ingrese 
-           al primer año de la carrera Tecnicatura Superior en analisis de sistemas en el IFTS! no perdi mas timpo!!!
+           al primer año de la carrera Tecnicatura Superior en analisis de sistemas en el IFTS! no perdi mas tiempo!!!
             y paralelamente realize mas de 5 cursos de desarrollo web, introduccion a la programacion
            etc,ESTA SOY YO ><strong> nose rendirme!!!</strong>
             </p>
             <a href="https://www.facebook.com/naty.villafane.3">
             <img  width="100"  src="img/naty.JPG">
             </a>
+    </div>
+    <br>
 
-        <header>
-            <p>Estoy en busqueda de mi primer empleo en IT!!!</p>
 
-            <P>Me apasiona el desarrollo web del lado del Frontend, pero me encantaria poder ser full stack!!</P>
-        </header>
 
-        <footer>
+
+
+
+   
+
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">en busca de mi primer empleo en IT!!!</h1>
+          <p class="lead">Me apasiona el desarrollo web del lado del FRONT-END ,pero me encantaria llegar a ser full stack.</p>
+        </div>
+      </div>
+        
+    <div class="container-fluid">
+        
+     <footer>
               Mis redes sociales:
              <ul>
                   <li>facebook <a href="https://www.facebook.com/naty.villafane.3">@natyvillafañe</a></li>
                   <li>instagram <a href="https://www.instagram.com/natyjagger/?hl=es-la">@natyvillafañe</a></li>
                   <li>linkedin <a href="https://www.linkedin.com/in/natalia-soledad-villafa%C3%B1e-7954b0195/">@natyvillafañe</a></li>
             </ul>
-        </footer>
+     </footer>
+    </div>
     
 
        
