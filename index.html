@@ -8,64 +8,100 @@
     <title>MI PROYECTO</title>
 </head>
 <body>
+
+    <!--comienzo-->
+  
+  <div class="container-fluid">
+    
+        
+    <h1>"Bienvenidos a mi primer pagina personal"</h1>
+   
+ </div>
+
+
+ <div class="container-fluid">
+     
+            
+            <p>Soy estudiante en IT, hace unos años atras ,gane una beca en la UTN para poder aprender a programar en 
+          Java y por cuestiones personales no pude terminar!!y la vida misma me llevo por otros caminos hasta
+         que en el año 2018 luego de ver la pelicula de Stev Jobs!!me desperto esas ganas de intentar y tomar 
+         revancha a esa posibilidad que perdi y poder retomar algo que me apasionaba y lo llevaba dormido, el mundo 
+         de sistemas!!y fui por mas termine la secundaria(adeudaba materias de 5 to año)e  ingrese 
+        al primer año de la carrera Tecnicatura Superior en analisis de sistemas en el IFTS! no perdi mas tiempo!!!
+         y paralelamente realize mas de 5 cursos de desarrollo web, introduccion a la programacion
+        etc,ESTA SOY YO ><strong> nose rendirme!!!</strong>
+         </p>
+         <a href="https://www.facebook.com/naty.villafane.3">
+         <img  width="100"  src="img/naty.JPG">
+         </a>
+ </div>
+  <br>
+
     <!--inicio del menu-->
+  <main>  
 
-    <nav id="navbar-example2" class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">Bienvenidos!!</a>
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a class="nav-link" href="#acerca de mi">@acerca de mi</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#cursos">@cursos</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">algunos de mis cursos</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#Coursera">Coursera</a>
-              <a class="dropdown-item" href="#Cisco">Cisco</a>
-              <div role="separator" class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#Slim">Slim</a>
-            </div>
-          </li>
-        </ul>
-      </nav> 
-
+    <div id="accordion" class="myaccordion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              Mis cursos!!!
+              <span class="fa-stack fa-sm">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+              </span>
+            </button>
+          </h2>
+        </div>
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+            <ul>
+              <li>Testing de software</li>
+              <li>Desarrollo web 1</li>
+              <li>introduccion a la programacion con python</li>
+              <li>Introduccion a la ciberseguridad</li>
+              <li>Introduccion a QA</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Mis proyectos!!!
+              <span class="fa-stack fa-2x">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+              </span>
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            <ul>
+              <li>Sitio responsivo con boostrap</li>
+              <li>Proyecto mate</li>
+              <li>Proyecto vestidos</li>
+              <li>Proyecto personal, etc.</li>
+              
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+          
+  </main>
       <!-- fin del menu-->
 
-      <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
-        <h4 id="acerca de mi ">@acerca de mi </h4>
-        <p>Soy una persona autodidacta,amable,solidaria,responsable y con muchas ganas de ampliar 
-            conocimientos y adquirir nuevos!!
-        </p>
+     
         <br>
 
-        <h4 id="cursos">@cursos</h4>
-        <p>Realize mas de 6 cursos entre ellos,  fue testing de software en Proyecto nahual it ,luego desarrollo web 1 
-            en aprender programando virtual 3.o del gobierno de la ciudad, desarrollo web 1 de Google Activate, introduccion a QA y 
-            automatizacion de pruebas SW.
-        </p>
-        <br>
-
-        <h4 id="Coursera">Coursera</h4>
-        <p>Realize un curso de introduccion a la programacion con python 
-            donde aprendi las bases de programar con este lenguaje.</p>
-        <br>
-
-        <h4 id="Cisco">Cisco</h4>
-        <p>Realize un curso de introduccion a la ciberseguridad lo super recomiendo, muy interesante,creo que es algo
-            que tambien me gustaria poder seguir aprendiendo paralelamente!!
-        </p>
-        <br>
-
-        <h4 id="Slim">Slim</h4>
-        <p>Aca realize 3 cursos ,uno de desarrollador backend,frontend y tester realmente los aconsejo son mas teoricos que practicos 
-            pero estan muy buenos al menos a mi me resultaron para seguir reforzando conceptos y conocimientos.
-        </p>
-        <br>
 
         <main>
-            <section>
+             <!--comienzo de certificados parte 1-->
+            <section clas="altura-a-b">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-sm-4 text-center">
@@ -134,35 +170,18 @@
       </div>
       <!--fin del carousel-->
 
-    <div class="container-fluid">
-    
-        
-       <h1>"Bienvenidos a mi primer pagina personal"</h1>
-      
-    </div>
-
-
-    <div class="container-fluid">
-        
-               
-               <p>soy estudiante en IT, hace unos años atras ,gane una beca en la UTN para poder aprender a programar en 
-             Java y por cuestiones personales no pude terminar!!y la vida misma me llevo por otros caminos hasta
-            que en el año 2018 luego de ver la pelicula de Stev Jobs!!me desperto esas ganas de intentar y tomar 
-            revancha a esa posibilidad que perdi y poder retomar algo que me apasionaba y lo llevaba dormido, el mundo 
-            de sistemas!!y fui por mas termine la secundaria(adeudaba materias de 5 to año)e  ingrese 
-           al primer año de la carrera Tecnicatura Superior en analisis de sistemas en el IFTS! no perdi mas tiempo!!!
-            y paralelamente realize mas de 5 cursos de desarrollo web, introduccion a la programacion
-           etc,ESTA SOY YO ><strong> nose rendirme!!!</strong>
-            </p>
-            <a href="https://www.facebook.com/naty.villafane.3">
-            <img  width="100"  src="img/naty.JPG">
-            </a>
-    </div>
     <br>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Mas de mis certificados!!!!!</h1>
+        <p class="lead">estos son algunos mas, de los certificados de los cursos que realize durante el año 2019 y 2020.</p>
+      </div>
+    </div>
 
    
-    <main>
-      <section>
+  <main>
+        <!--comienzo certificados parte 2-->
+        <section class="altura-a-b">
           <div class="container">
               <div class="row">
                   <div class="col-12 col-sm-4 text-center">
@@ -185,8 +204,9 @@
 
                 </div>
            </div>
-       </section>
-   </main>
+        </section>
+
+  </main>
 
 
 
