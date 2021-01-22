@@ -6,6 +6,16 @@
     <meta http-equiv="x-UA-compatible"content="ie=edge">
     <link rel ="stylesheet" href="css/bootstrap.min.css">
     <title>MI PROYECTO</title>
+    <!--<style type="text/css">
+    .carousel-inner img {
+      width: 100%;
+      max-height: 460px;
+    }
+
+    .carousel-inner{
+     height: 200px;
+    }-->
+    </style>
 </head>
 <body>
 
@@ -31,9 +41,11 @@
          y paralelamente realize mas de 5 cursos de desarrollo web, introduccion a la programacion
         etc,ESTA SOY YO ><strong> nose rendirme!!!</strong>
          </p>
-         <a href="https://www.facebook.com/naty.villafane.3">
+         <div class="container" align="center">
+          <a href="https://www.facebook.com/naty.villafane.3">
          <img  width="100"  src="img/naty.JPG">
          </a>
+         </div>
  </div>
   <br>
 
@@ -105,19 +117,19 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-sm-4 text-center">
-                            <img class="img-fluid" src="img/back-end.jpeg" alt="carlosSlim">
+                            <img class="img-fluid" style=" max-width: 326px" src="img/back-end.jpeg" alt="carlosSlim">
                             <h5>Certificado de desarrollador backend</h5>
                             <p>Parte del desarrollo que se dedica a la programación de los diferentes componentes de un sitio web</p>
                         </div>
 
                         <div class="col-12 col-sm-4 text-center">
-                            <img class="img-fluid"src="img/python.jpeg" alt="coursera">
+                            <img class="img-fluid" style=" max-width: 300px" src="img/python.jpeg" alt="coursera">
                             <h5>Certificado de introduccion a la programacion con python</h5>
                             <p>aprendidendo a programar con el lenguaje python</p>
                         </div>
 
                         <div class="col-12 col-sm-4 text-center">
-                            <img class="img-fluid" src="img/cisco.jpeg" alt="Cisco">
+                            <img class="img-fluid" style=" max-width: 362px" src="img/cisco.jpeg" alt="Cisco">
                             <h5>introduccion a la ciberseguridad</h5>
                             <p>aprendiendo los conceptos necesarios y basicos sobre ciberseguridad</p>
                         </div>
@@ -129,7 +141,7 @@
 
       </div>
              <!--inicio del carousel-->
-      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <!--<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -137,7 +149,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/boostrap.jpg" class="d-block w-100" alt="boostrap">
+            <img src="img/boostrap.jpg" height="300px" class="d-block w-100" alt="boostrap">
             <div class="carousel-caption d-none d-md-block">
               <h5>boostrap</h5>
               <p>es un framework,que permite crear interfaces web con CSS y JavaScript.</p>
@@ -167,8 +179,52 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-      </div>
+      </div>-->
       <!--fin del carousel-->
+
+
+<!--==== INICIO DE CAROUSEL ===-->
+<div class="container">
+    <div id="carouselControls" class="carousel slide" data-ride="carousel">
+      <!--para que rote el carousel-->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <!-- class="d-block w-100" setea para que el broser se adapte a las dimensiones de la imagen-->
+          <img class="d-block w-100" height="400px" src="img/imagen1.jpg" alt="Primer Slide">
+          <div class="carousel-caption d-none d-md-block">
+              <h5>Bootstrap</h5>
+              <p>Es un framework, que permite crear interfaces web con CSS y JavaScript.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" height="400px" src="img/imagen2.jpg" alt="Segundo Slide">
+          <div class="carousel-caption d-none d-md-block">
+              <h5>CSS Y HTML5</h5>
+              <p>HTML es un lenguaje muy simple que sirve para crear páginas web y CSS  aporta estilos a lo que se quiere mostrar.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" height="400px" src="img/imagen3.jpg" alt="Tercer Slide">
+          <div class="carousel-caption d-none d-md-block">
+              <h5>Javascript</h5>
+              <p>Es el único lenguaje de programación que funciona en los navegadores de forma nativa .</p>
+            </div>
+        </div>
+      </div>
+      <!--end class="carousel-inner"-->
+      <!--AGREGADO DE BOTONES PREV Y NEXT-->
+      <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
+    <!--end id="carouselControls"-->
+</div>
+    <!--==== FIN DE CAROUSEL ===-->
 
     <br>
     <div class="jumbotron jumbotron-fluid">
@@ -185,19 +241,19 @@
           <div class="container">
               <div class="row">
                   <div class="col-12 col-sm-4 text-center">
-                      <img class="img-fluid" src="img/desarrolloweb1.jpeg" alt="google">
+                      <img class="img-fluid" style=" max-width: 350px" src="img/desarrolloweb1.jpeg" alt="google">
                       <h5>certificado de desarrollo web 1</h5>
                       <p>introduccion al desarrollo web 1</p>
                   </div>
 
                   <div class="col-12 col-sm-4 text-center">
-                      <img class="img-fluid" src="img/qa_sw.jpeg" alt="tsoft">
+                      <img class="img-fluid" style=" max-width: 295px" src="img/qa_sw.jpeg" alt="tsoft">
                       <h5>Certificado de introduccion a QA y automatizacion de pruebas SW</h5>
                       <p>bases sobre testing de software y pruebas automatizadas.</p>
                   </div>
 
                   <div class="col-12 col-sm-4 text-center">
-                      <img class="img-fluid" src="img/virtual3.0.jpeg" alt="aprender programando">
+                      <img class="img-fluid" style=" max-width: 326px" src="img/virtual3.0.jpeg" alt="aprender programando">
                       <h5>introduccion al desarrollo web 1</h5>
                       <p>las bases iniciales del desarrollo web 1 con html y css</p>
                   </div>
